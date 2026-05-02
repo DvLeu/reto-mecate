@@ -1,0 +1,24 @@
+# Variables de entorno
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Docker
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Frontend 
+node_modules/
+dist/
+build/
