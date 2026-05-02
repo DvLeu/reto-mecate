@@ -53,16 +53,7 @@ STACK_API_URL=https://api.stackexchange.com/2.2/search?order=desc&sort=activity&
 docker compose -up
 ```
 
-El proceso tarda aproximadamente entre 40 y 1 min por qué descarga las respectivas imagenes de Python y PostgreSQL
-
-## Debes ver algo asi
-
-```bash
-reto-backend  | INFO:     Uvicorn running on http://0.0.0.0:8000
-reto-backend  | Seeding database...
-reto-frontend | VITE v5.x.x  ready in xxx ms
-reto-frontend | ➜  Local:   http://localhost:5173/
-```
+El proceso tarda aproximadamente entre 40 segundos y 1 min por qué descarga las respectivas imagenes de Python y PostgreSQL
 
 ## Pasos para correr el Frontend
 
