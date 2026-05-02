@@ -109,19 +109,21 @@ reto-mecate/
 
 ## Endpoints del backend
 
-### Vuelos de Mexico :
+## API Endpoints
 
-GET http://localhost:8000/vuelos/aeropuerto-top
-GET http://localhost:8000/vuelos/aerolinea-top
-GET http://localhost:8000/vuelos/dia-top
-GET http://localhost:8000/vuelos/aerolineas-mas2
+### Vuelos de México
 
-### Api externa de stackoverflow
+- `GET http://localhost:8000/vuelos/aeropuerto-top`
+- `GET http://localhost:8000/vuelos/aerolinea-top`
+- `GET http://localhost:8000/vuelos/dia-top`
+- `GET http://localhost:8000/vuelos/aerolineas-mas2`
 
-GET http://localhost:8000/stackoverflow/respondidas
-GET http://localhost:8000/stackoverflow/mayor-reputacion
-GET http://localhost:8000/stackoverflow/menor-vistas
-GET http://localhost:8000/stackoverflow/extremos
+### StackOverflow External API
+
+- `GET http://localhost:8000/stackoverflow/respondidas`
+- `GET http://localhost:8000/stackoverflow/mayor-reputacion`
+- `GET http://localhost:8000/stackoverflow/menor-vistas`
+- `GET http://localhost:8000/stackoverflow/extremos`
 
 ## Stack Tecnico de este reto
 
