@@ -64,9 +64,21 @@ reto-frontend | VITE v5.x.x  ready in xxx ms
 reto-frontend | ➜  Local:   http://localhost:5173/
 ```
 
-## Abre la aplicacion desde el Frontend
+## Pasos para correr el Frontend
 
-- **Frontend** : [http://localhost:5173](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.html)
+### Instala las dependencias 
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### El frontend estará disponible en:
+
+```txt
+http://localhost:5173/
+```
 
 ## URL's del proyecto
 
@@ -75,7 +87,6 @@ reto-frontend | ➜  Local:   http://localhost:5173/
 * **Docs automáticos del backend** : [http://localhost:8000/docs](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.html)
 
 ## Estructura del proyecto
-
 
 ```txt
 reto-mecate/
@@ -121,9 +132,9 @@ GET http://localhost:8000/stackoverflow/mayor-reputacion
 GET http://localhost:8000/stackoverflow/menor-vistas
 GET http://localhost:8000/stackoverflow/extremos
 
-## Stack Tecnico de este reto 
+## Stack Tecnico de este reto
 
-Todo fue basado en las versiones mas estables y listas para produccion. 
+Todo fue basado en las versiones mas estables y listas para produccion.
 
 Utilice PostgreSQL debido a que es una base de datos OpenSource muy utilizada en el mercado actualmente.
 
