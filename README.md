@@ -18,9 +18,9 @@ Solo necesitas:
 ## Pasos para correr
 
 ### 1. Clona o descarga el repo
-
+Utilizando SSH 
 ```bash
-git clone <url-del-repo>
+git clone git@github.com:DvLeu/reto-mecate.git
 cd reto-mecate
 ```
 
