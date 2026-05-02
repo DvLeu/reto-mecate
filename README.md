@@ -76,31 +76,34 @@ reto-frontend | ➜  Local:   http://localhost:5173/
 
 ## Estructura del proyecto
 
+
+```txt
 reto-mecate/
 ├── backend/
 │   ├── app/
-│   │   ├── main.py              # Archivo principal de FastAPI
+│   │   ├── main.py
 │   │   ├── core/
-│   │   │   ├── config.py        # Variables de config
-│   │   │   ├── database.py      # Setup de la DB
-│   │   │   └── seed.py          # Datos iniciales
-│   │   ├── models/              # Modelos de la BD
-│   │   ├── repositories/        # Queries SQL
-│   │   ├── routers/             # Endpoints
-│   │   └── services/            # Lógica de negocio
+│   │   │   └── config.py
+│   │   ├── database.py
+│   │   ├── seed.py
+│   │   ├── models/
+│   │   ├── repositories/
+│   │   ├── routers/
+│   │   └── services/
 │   ├── Dockerfile
 │   └── requirements.txt
 ├── frontend/
 │   ├── src/
-│   │   ├── App.jsx              # App principal
-│   │   ├── api.js               # Llamadas al backend
-│   │   ├── main.jsx
-│   │   └── index.css
+│   │   ├── App.jsx
+│   │   ├── api.js
+│   │   └── main.jsx
+│   ├── index.css
 │   ├── package.json
 │   └── vite.config.js
 ├── docker-compose.yml
 ├── .env.example
-└── README.md (este archivo)
+└── README.md
+```
 
 ## Endpoints del backend
 
